@@ -1808,6 +1808,13 @@
     font-size: 26px;
   }
 
+  #es-loreal.es-loreal
+    .es-tabbed
+    [type='radio']:nth-of-type(4):checked
+    ~ .es-tab-content:nth-of-type(4) {
+    height: 700px;
+  }
+
   #es-loreal.es-loreal .es-tab1--item:nth-of-type(1) {
     width: 47%;
     top: 118px;
@@ -2005,7 +2012,7 @@
   }
 
   #es-loreal.es-loreal .es-results__list {
-    margin-left: 48%;
+    /* margin-left: 48%; */
   }
 
   #es-loreal.es-loreal .es-results__BA--Ctn {
@@ -2013,7 +2020,7 @@
   }
 
   #es-loreal.es-loreal .es-results__list {
-    margin-left: 58%;
+    /* margin-left: 58%; */
   }
 }
 
